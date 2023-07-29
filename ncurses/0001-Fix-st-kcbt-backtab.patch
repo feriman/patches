@@ -1,0 +1,12 @@
+diff '--color=auto' -ru ncurses-6.4.orig/misc/terminfo.src ncurses-6.4/misc/terminfo.src
+--- ncurses-6.4.orig/misc/terminfo.src	2023-07-29 21:04:44.816477262 +0300
++++ ncurses-6.4/misc/terminfo.src	2023-07-29 21:09:32.536167772 +0300
+@@ -7508,7 +7508,7 @@
+ # This entry discards the ccc/initc capabilities from st-0.7 because they
+ # belong in st-256color.
+ st-0.8|simpleterm 0.8,
+-	dim=\E[2m, kcbt@, kent@, oc=\E]104\007,
++	dim=\E[2m, kent@, oc=\E]104\007,
+ 	sgr=%?%p9%t\E(0%e\E(B%;\E[0%?%p6%t;1%;%?%p2%t;4%;%?%p1%p3%|
+ 	    %t;7%;%?%p4%t;5%;%?%p5%t;2%;%?%p7%t;8%;m,
+ 	Ms=\E]52;%p1%s;%p2%s\007, kDN3=\E[1;3B, kDN5=\E[1;5B,

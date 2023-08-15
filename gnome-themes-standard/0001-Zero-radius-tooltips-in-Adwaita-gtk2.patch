@@ -1,0 +1,24 @@
+diff '--color=auto' -urp gnome-themes-extra-3.28.orig/themes/Adwaita/gtk-2.0/main.rc gnome-themes-extra-3.28/themes/Adwaita/gtk-2.0/main.rc
+--- gnome-themes-extra-3.28.orig/themes/Adwaita/gtk-2.0/main.rc	2018-01-24 18:24:06.000000000 +0200
++++ gnome-themes-extra-3.28/themes/Adwaita/gtk-2.0/main.rc	2023-08-15 11:19:53.846233178 +0300
+@@ -20,7 +20,7 @@ style "default" {
+   GtkToolbar::internal-padding = 4
+   GtkToolButton::icon-spacing  = 4
+ 
+-  GtkWidget::tooltip-radius    = 3
++  GtkWidget::tooltip-radius    = 0
+   GtkWidget::tooltip-alpha     = 235
+   GtkWidget::new-tooltip-style = 1 #for compatibility
+ 
+diff '--color=auto' -urp gnome-themes-extra-3.28.orig/themes/Adwaita-dark/gtk-2.0/main.rc gnome-themes-extra-3.28/themes/Adwaita-dark/gtk-2.0/main.rc
+--- gnome-themes-extra-3.28.orig/themes/Adwaita-dark/gtk-2.0/main.rc	2018-01-24 18:24:06.000000000 +0200
++++ gnome-themes-extra-3.28/themes/Adwaita-dark/gtk-2.0/main.rc	2023-08-15 11:20:05.838137109 +0300
+@@ -20,7 +20,7 @@ style "default" {
+   GtkToolbar::internal-padding = 4
+   GtkToolButton::icon-spacing  = 4
+ 
+-  GtkWidget::tooltip-radius    = 3
++  GtkWidget::tooltip-radius    = 0
+   GtkWidget::tooltip-alpha     = 235
+   GtkWidget::new-tooltip-style = 1 #for compatibility
+ 
